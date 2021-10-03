@@ -1,10 +1,8 @@
-A simple library for applying the Humble Object Pattern in order to create cleaner, more testable widgets.  
+A simple library for applying the Humble Object Pattern in order to create clean, testable widgets.  
 
-  
 
 ## Features
 
-  
 
 This package might be helpful to you if:
 - a high level of test coverage is required
@@ -13,7 +11,9 @@ This package might be helpful to you if:
 - the widgets you create depend on too many details
 
 
+
 ## Usage
+
 
 Using the library will feel very familiar.  Let's start by creating a simple button as a <b>HumbleStatelessWidget</b>.
 
@@ -55,8 +55,12 @@ class SimpleButton extends HumbleStatelessWidget<SimpleButtonLogic> {
 ```
 That's it!  You now have a testable (albeit simple) widget!  Take a look at the <b>example</b> folder for creating a <b>HumbleStatefulWidget</b>.
 
+
 ## Additional information
+
 
 The amount of source code in the library is minuscule, and it doesn't constitute anything new or bleeding-edge.  However, use of this library will help the average developer apply high level and highly-esteemed software engineering principles to their code.  
 
 Learn more about the Humble Object Pattern here: https://martinfowler.com/bliki/HumbleObject.html.
+
+Contribute at https://github.com/brettlaws/flutter_hop.
